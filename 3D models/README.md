@@ -64,7 +64,7 @@ Achievement unlocked! Prerequisite ready!
 
 ### Design of the enclosure
 
-FreeCAD was first envisaged to finalize the design of the enclosure, however current bugs or lack of explainantion on some recent changes have made it impossible to use. The free version of Autodesk Fusion 360 was used instead of the Open Source tool. After many attemps, the design with a sleeve and a back cover aws retained.
+FreeCAD was first envisaged to finalize the design of the enclosure, however current bugs or lack of explainantion on some recent changes have made it impossible to use. The free version of Autodesk Fusion 360 was used instead of the Open Source tool. After many attemps, the design with a sleeve and a back cover was retained.
 
 - Front view without sleeve
 <img width="600px" src="images/Front no Sleeve.png" /> 
