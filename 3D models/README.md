@@ -61,8 +61,10 @@ Should an additional transform be needed, change to "Part" workbench, select com
 Finally, select the root of the tree, then select from menu File > Export, choose STEP as the output format, and the circuit 3D model is now saved as pcb_simplified.step
 
 Achievement unlocked! Prerequisite ready!  
-  
-FreeCAD was envisaged to finalize the design of the enclosure, however current bugs or lack of explainantion on some recent changes have made it impossible. The free version of Fusion 360 was used instead of the Open Source tool.
+
+### Design of the enclosure
+
+FreeCAD was first envisaged to finalize the design of the enclosure, however current bugs or lack of explainantion on some recent changes have made it impossible to use. The free version of Autodesk Fusion 360 was used instead of the Open Source tool. After many attemps, the design with a sleeve and a back cover aws retained.
 
 - Front view without sleeve
 <img width="600px" src="images/Front no Sleeve.png" /> 
