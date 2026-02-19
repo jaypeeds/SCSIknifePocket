@@ -67,9 +67,9 @@ FreeCAD was envisaged to finalize the design of the enclosure, however current b
 - Front view without sleeve
 <img width="600px" src="images/Front no Sleeve.png" /> 
 - Front view with sleeve
-<img width="600px" src="images/Front with Sleeve.png" /> 
+<img width="600px" src="images/Front with sleeve.png" /> 
 - Back view without back cap
 <img width="600px" src="images/Back no Cap.png" /> 
 - Back view with back cap
-<img width="600px" src="images/Back with Cap.png" /> 
+<img width="600px" src="images/Back with cap.png" /> 
 
