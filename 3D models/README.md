@@ -16,12 +16,12 @@ Open Source tools used in this part of the project:
 
 An account on the [GrabCAD portal](https://grabcad.com) is also used.
 
-The overall procedure is to start from the layout of the PCB, simplying it then import its geometry into the CAD system used for the enclosure design.
+The overall procedure is to start from the layout of the PCB, simplying it then import its geometry into the CAD system used for the enclosure design. The geometry of the circuit is transfered from the SVG to the CAD system, then ready-made 3D model of the components are added to recreate a realistic volumetry of the fully equiped circuit.
 
 ## Prerequisite elaboration
 ### Simplifying the layout
 The input is the file schematcs/layout.svg, opened in Inkscape.
-Most components of the circuit are low profile CMS components which require next to nothing in terms of overhead space allocation. Therefore, only the footprint of the largest ones, two connectors and a memory card reader are retained and their precise placement transferred to FreeCAD. Only 4 paths remain, the PCB outline and the footprint of main components.
+Most components of the circuit are low profile CMS components which require next to nothing in terms of overhead space allocation. Therefore, only the footprint of the largest ones, two connectors and a memory card reader are retained and their precise placement transferred to FreeCAD. Only 4 paths remain, the PCB outline and the footprint of the main components.
 
 The result is exported as pcb_simplified.svg
 
@@ -58,5 +58,18 @@ Select the component in the tree, in the bottom panel activate the "Data" tab to
   
 Should an additional transform be needed, change to "Part" workbench, select component in the tree and right-click for contextual menu, and select first option, arrows and circular handles allow for additional placement movements.
 
+Finally, select the root of the tree, then select from menu File > Export, choose STEP as the output format, and the circuit 3D model is now saved as pcb_simplified.step
+
 Achievement unlocked! Prerequisite ready!  
   
+FreeCAD was envisaged to finalize the design of the enclosure, however current bugs or lack of explainantion on some recent changes have made it impossible. The free version of Fusion 360 was used instead of the Open Source tool.
+
+- Front view without sleeve
+<img width="600px" src="images/Front no Sleeve.png" /> 
+- Front view with sleeve
+<img width="600px" src="images/Front with Sleeve.png" /> 
+- Back view without back cap
+<img width="600px" src="images/Back no Cap.png" /> 
+- Back view with back cap
+<img width="600px" src="images/Back with Cap.png" /> 
+
