@@ -66,6 +66,8 @@ Achievement unlocked! Prerequisite ready!
 
 FreeCAD was first envisaged to finalize the design of the enclosure, however current bugs or lack of explainantion on some recent changes have made it impossible to use. The free version of Autodesk Fusion 360 was used instead of the Open Source tool. After many attemps, the design with a sleeve and a back cover was retained.
 
+**Note:** DB-25 should be of male gender, however only the female model was available as a 3D model.
+
 - Front view without sleeve
 <img width="600px" src="images/Front no Sleeve.png" /> 
 - Front view with sleeve
