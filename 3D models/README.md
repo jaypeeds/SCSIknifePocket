@@ -6,7 +6,7 @@ The goal of this project is to create an enclosure for the [SCSI Knife Pocket](h
 Such a goal is generally fulfilled thanks to a 3D model of the finished circuit, a side-product of the CAD worflow used to design the circuit, used as a guide to design the enclosure around it.
 
 In this case, the author has provided an SVG image of the layout of the main PCB. A bit of elaboration is needed before to tackle the main goal, the enclosure itself.
-
+<img width="600px" src="../schematics/layout.pdf" /> 
 **Note:** In addition to the main goal, attention will be paid to the procedures, they must be simple and reproducible with further versions of the circuit. 
 
 Open Source tools used in this part of the project: 
