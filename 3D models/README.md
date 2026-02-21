@@ -6,7 +6,9 @@ The goal of this project is to create an enclosure for the [SCSI Knife Pocket](h
 Such a goal is generally fulfilled thanks to a 3D model of the finished circuit, a side-product of the CAD worflow used to design the circuit, used as a guide to design the enclosure around it.
 
 In this case, the author has provided an SVG image of the layout of the main PCB. A bit of elaboration is needed before to tackle the main goal, the enclosure itself.
-<img width="600px" src="../schematics/layout.pdf" /> 
+
+<img width="600px" src="images/pcb_simplified.png" /> 
+
 **Note:** In addition to the main goal, attention will be paid to the procedures, they must be simple and reproducible with further versions of the circuit. 
 
 Open Source tools used in this part of the project: 
@@ -24,6 +26,8 @@ The input is the file schematcs/layout.svg, opened in Inkscape.
 Most components of the circuit are low profile CMS components which require next to nothing in terms of overhead space allocation. Therefore, only the footprint of the largest ones, two connectors and a memory card reader are retained and their precise placement transferred to FreeCAD. Only 4 paths remain, the PCB outline and the footprint of the main components.
 
 The result is exported as pcb_simplified.svg
+
+<img width="600px" src="images/pcb_simplified.png" /> 
 
 ### Importing in the CAD system
 FreeCAD is divided in multiple *Workbenches*, each one is specialized in some specific tasks.
@@ -67,7 +71,7 @@ Achievement unlocked! Prerequisite ready!
 
 FreeCAD was first envisaged to finalize the design of the enclosure, however current bugs or lack of explainantion on some recent changes have made it impossible to use. The free version of Autodesk Fusion 360 was used instead of the Open Source tool. After many attemps, the design with a sleeve and a back cover was retained.
 
-**Note:** DB-25 should be of male gender, however only the female model was available as a 3D model.
+**Note:** A SCSI disk DB-25 should be of male gender, however only the female model was available as a 3D model. This has no impact on the design itself.
 
 - Front view without sleeve
 <img width="600px" src="images/Front no Sleeve.png" /> 
