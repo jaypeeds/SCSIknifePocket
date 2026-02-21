@@ -6,6 +6,7 @@ The goal of this project is to create an enclosure for the [SCSI Knife Pocket](h
 Such a goal is generally fulfilled thanks to a 3D model of the finished circuit, a side-product of the CAD worflow used to design the circuit, used as a guide to design the enclosure around it.
 
 In this case, the author has provided an PDF image of the layout of the main PCB. A bit of elaboration is needed before to tackle the main goal, the enclosure itself.
+
 <img width="600px" src="images/layout.png" /> 
 
 **Note:** In addition to the main goal, attention will be paid to the procedures, they must be simple and reproducible with further versions of the circuit. 
@@ -21,7 +22,7 @@ The overall procedure is to start from the layout of the PCB, simplying it then 
 
 ## Prerequisite elaboration
 ### Simplifying the layout
-The input is the file schematcs/layout.svg, opened in Inkscape.
+The input is the file schematcs/layout.pdf, imported in Inkscape.
 Most components of the circuit are low profile CMS components which require next to nothing in terms of overhead space allocation. Therefore, only the footprint of the largest ones, two connectors and a memory card reader are retained and their precise placement transferred to FreeCAD. Only 4 paths remain, the PCB outline and the footprint of the main components.
 
 The result is exported as pcb_simplified.svg
