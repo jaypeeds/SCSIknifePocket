@@ -65,6 +65,7 @@ Should an additional transform be needed, change to "Part" workbench, select com
 Finally, select the root of the tree, then select from menu File > Export, choose STEP as the output format, and the circuit 3D model is now saved as pcb_simplified.step
 
 Achievement unlocked! Prerequisite ready! 
+
 <img width="600px" src="images/PCB.png" /> 
 
 ### Design of the enclosure
