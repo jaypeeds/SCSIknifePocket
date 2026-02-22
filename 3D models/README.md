@@ -83,4 +83,6 @@ FreeCAD was first envisaged to finalize the design of the enclosure, however cur
 - Back view with back cap
 <img width="600px" src="images/Back with cap.png" /> 
 
-Long screw could be added to secure the plug to the Mac. [Digikey](https://www.digikey.fr/fr/products/detail/norcomp-inc/160-000-050R031/1008061) has one reference for them.
+- Long screw could be added to secure the plug to the Mac. [Digikey](https://www.digikey.fr/fr/products/detail/norcomp-inc/160-000-050R031/1008061) has one reference for them.
+- And finally...
+- <img width="600px" src="images/printed result.png" />
